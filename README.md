@@ -1,8 +1,8 @@
 # Worklow environment
 
 In this directory, you will find the files used to build the conda and singularity container environments of the tools that I use in the workflows that I develop.
-plouf
-## Conda environment available
+
+## Conda environment
 
 | Tools         | Version       | Link                                                                                  |
 | :-----------: | :-----------: | :-----------------------------------------------------------------------------------: |
@@ -12,7 +12,7 @@ plouf
 | SeqKit        | 2.6.1         | [https://bioinf.shenwei.me/seqkit/](https://bioinf.shenwei.me/seqkit/)                |
 | CD-HIT        | 4.8.1         | [https://github.com/weizhongli/cdhit](https://github.com/weizhongli/cdhit)            |
 
-## Singularity containers available
+## Singularity containers
 
 | Tools         | Version       | Link                                                                                  |
 | :-----------: | :-----------: | :-----------------------------------------------------------------------------------: |

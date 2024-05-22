@@ -1,24 +1,23 @@
 # Worklow environment
 
-In this directory, you will find the files used to build the conda and singularity container environments of the tools that I use in the workflows that I develop.
+This repository contains the environment and files needed to build Singularity and Docker containers for my various projects.
+
+Docker images are available on [Docker Hub](https://hub.docker.com/u/jroussea).
 
 ## Conda environment
 
-| Tools         | Version       | Link                                                                                  |
-| :-----------: | :-----------: | :-----------------------------------------------------------------------------------: |
-| diamond       | 2.1.8         | [https://github.com/bbuchfink/diamond/wiki](https://github.com/bbuchfink/diamond/wiki)|
-| mcl           | 22-282        | [https://micans.org/mcl/](https://micans.org/mcl/)                                    |
-| LAGOO-MCL     | 1.0.0         | [https://github.com/jroussea/LAGOON-MCL](https://github.com/jroussea/LAGOON-MCL)      |
-| SeqKit        | 2.6.1         | [https://bioinf.shenwei.me/seqkit/](https://bioinf.shenwei.me/seqkit/)                |
-| CD-HIT        | 4.8.1         | [https://github.com/weizhongli/cdhit](https://github.com/weizhongli/cdhit)            |
+| Tools         | Version       | GitHub repository                                             |
+| :-----------: | :-----------: | :-----------------------------------------------------------: |
+| LAGOO-MCL     | 1.0.X - 1.1.0 | [jroussea/lagoon-mcl](https://github.com/jroussea/lagoon-mcl) |
 
 ## Singularity containers
 
-| Tools         | Version       | Link                                                                                  |
-| :-----------: | :-----------: | :-----------------------------------------------------------------------------------: |
-| diamond       | 2.1.8         | [https://github.com/bbuchfink/diamond/wiki](https://github.com/bbuchfink/diamond/wiki)|
-| mcl           | 22-282        | [https://micans.org/mcl/](https://micans.org/mcl/)                                    |
-| LAGOO-MCL     | 1.0.0         | [https://github.com/jroussea/LAGOON-MCL](https://github.com/jroussea/LAGOON-MCL)      |
-| SeqKit        | 2.6.1         | [https://bioinf.shenwei.me/seqkit/](https://bioinf.shenwei.me/seqkit/)                |
-| InterProScan  | 5.65-97.0     | [https://interproscan-docs.readthedocs.io/](https://interproscan-docs.readthedocs.io) |
-| CD-HIT        | 4.8.1         | [https://github.com/weizhongli/cdhit](https://github.com/weizhongli/cdhit)            |
+| Tools         | Version       | GitHub repository                                             |
+| :-----------: | :-----------: | :-----------------------------------------------------------: |
+| LAGOO-MCL     | 1.0.X - 1.1.0 | [jroussea/lagoon-mcl](https://github.com/jroussea/lagoon-mcl) |
+
+## Docker containers
+
+| Tools         | Version       | GitHub repository                                             | Docker Hub                                                          |
+| :-----------: | :-----------: | :-----------------------------------------------------------: | :-----------------------------------------------------------------: |
+| LAGOO-MCL     | 1.1.0         | [jroussea/lagoon-mcl](https://github.com/jroussea/lagoon-mcl) | [jroussea/lagoon-mcl](https://hub.docker.com/r/jroussea/lagoon-mcl) |

@@ -1,6 +1,8 @@
 name: lagoon-mcl
 channels:
   - defaults
+  - bioconda
+  - conda-forge
 dependencies:
   - pandas=2.0.3=py311ha02d727_0
   - pip=23.3.1=py311h06a4308_0

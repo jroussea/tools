@@ -2,22 +2,12 @@
 
 This repository contains the environment and files needed to build Singularity and Docker containers for my various projects.
 
-Docker images are available on [Docker Hub](https://hub.docker.com/u/jroussea).
+# Tools
 
-## Conda environment
-
-| Tools         | Version       | GitHub repository                                             | Maintainer                                |
-| :-----------: | :-----------: | :-----------------------------------------------------------: | :---------------------------------------: |
-| LAGOO-MCL     | 1.0.X - 1.1.0 | [jroussea/lagoon-mcl](https://github.com/jroussea/lagoon-mcl) | [@jroussea](https://github.com/jroussea)  |
-
-## Singularity containers
-
-| Tools         | Version       | GitHub repository                                             | Maintainer                                |
-| :-----------: | :-----------: | :-----------------------------------------------------------: | :---------------------------------------: |
-| LAGOO-MCL     | 1.0.X - 1.1.0 | [jroussea/lagoon-mcl](https://github.com/jroussea/lagoon-mcl) | [@jroussea](https://github.com/jroussea)  |
-
-## Docker containers
-
-| Tools         | Version       | GitHub repository                                             | Docker Hub                                                          | Maintainer                                |
-| :-----------: | :-----------: | :-----------------------------------------------------------: | :-----------------------------------------------------------------: | :---------------------------------------: |
-| LAGOO-MCL     | 1.1.0         | [jroussea/lagoon-mcl](https://github.com/jroussea/lagoon-mcl) | [jroussea/lagoon-mcl](https://hub.docker.com/r/jroussea/lagoon-mcl) | [@jroussea](https://github.com/jroussea)  |
+| Tools         | Version       | Conda / Mamba | Singularity | Docker |
+| :-----------: | :-----------: | :-----------: | :---------: | :----: |
+| LAGOO-MCL     | x.x.x         | Yes           | Yes         | No     |
+| CATH tools    | 0.16.5        | Yes           | Yes         | No     |
+| Diamond       | 2.1.8         | Yes           | Yes         | No     |
+| HMMER         | 3.4           | Yes           | Yes         | No     |
+| MCL           | 22.282        | Yes           | Yes         | No     |

@@ -1,4 +1,4 @@
-name: cath
+name: cath-tools-0.16.5
 channels:
   - defaults
   - bioconda

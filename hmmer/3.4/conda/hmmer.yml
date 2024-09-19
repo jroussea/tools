@@ -1,4 +1,4 @@
-name: hmmer
+name: hmmer-3-4
 channels:
   - defaults
   - bioconda

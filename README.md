@@ -6,11 +6,11 @@ This repository contains the environment and files needed to build Singularity a
 
 | Tools         | Version       | Conda / Mamba | Singularity | Docker | Documentation | References |
 | :-----------: | :-----------: | :-----------: | :---------: | :----: | :-----------: | :--------: |
-| LAGOO-MCL     | x.x.x         | Yes           | Yes         | No     | No            | No         |
-| CATH tools    | 0.16.5        | Yes           | Yes         | No     | [Link](https://cath-tools.readthedocs.io/en/latest/) | [Link](https://www.sciencedirect.com/science/article/pii/0022283689900843?via%3Dihub) |
-| Diamond       | 2.1.8         | Yes           | Yes         | No     | [Link](https://github.com/bbuchfink/diamond/wiki) | [Link](https://www.nature.com/articles/s41592-021-01101-x) |                
-| HMMER         | 3.4           | Yes           | Yes         | No     | [Link](http://eddylab.org/software/hmmer/Userguide.pdf) | [Link](http://eddylab.org/software/hmmer/Userguide.pdf) |
-| MCL           | 22.282        | Yes           | Yes         | No     | [Link](https://micans.org/mcl/) | [Link-1](https://epubs.siam.org/doi/10.1137/040608635) - [Link-2](https://pubmed.ncbi.nlm.nih.gov/11917018/) - [Link-3](https://pubmed.ncbi.nlm.nih.gov/22144159/) |
+| LAGOO-MCL     | x.x.x         | [Yes](lagoon-mcl/x.x.x/conda/lagoon-mcl.yml) | [Yes](lagoon-mcl/x.x.x/singularity/lagoon-mcl.def) | No     | No            | No         |
+| CATH tools    | 0.16.5        | [Yes](cath-tools/0.16.5/conda/cath-tools.yml) | [Yes](cath-tools/0.16.5/singularity/cath-tools.def) | No     | [Link](https://cath-tools.readthedocs.io/en/latest/) | [Link](https://www.sciencedirect.com/science/article/pii/0022283689900843?via%3Dihub) |
+| Diamond       | 2.1.8         | [Yes](diamond/2.1.8/conda/diamond.yml) | [Yes](diamond/2.1.8/singularity/diamond.def) | No     | [Link](https://github.com/bbuchfink/diamond/wiki) | [Link](https://www.nature.com/articles/s41592-021-01101-x) |                
+| HMMER         | 3.4           | [Yes](hmmer/3.4/conda/hmmer.yml) | [Yes](hmmer/3.4/singularity/hmmer.def) | No     | [Link](http://eddylab.org/software/hmmer/Userguide.pdf) | [Link](http://eddylab.org/software/hmmer/Userguide.pdf) |
+| MCL           | 22.282        | [Yes](mcl/22.282/conda/mcl.yml) | [Yes](mcl/22.282/singularity/mcl.def) | No     | [Link](https://micans.org/mcl/) | [Link-1](https://epubs.siam.org/doi/10.1137/040608635) - [Link-2](https://pubmed.ncbi.nlm.nih.gov/11917018/) - [Link-3](https://pubmed.ncbi.nlm.nih.gov/22144159/) |
 
 # Use
 

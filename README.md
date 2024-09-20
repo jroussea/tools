@@ -6,11 +6,11 @@ This repository contains the environment and files needed to build Singularity a
 
 | Tools         | Version       | Conda / Mamba | Singularity | Docker | Documentation | References |
 | :-----------: | :-----------: | :-----------: | :---------: | :----: | :-----------: | :--------: |
-| LAGOO-MCL     | x.x.x         | [Yes](lagoon-mcl/x.x.x/conda/lagoon-mcl.yml) | [Yes](lagoon-mcl/x.x.x/singularity/lagoon-mcl.def) | No     | No            | No         |
-| CATH tools    | 0.16.5        | [Yes](cath-tools/0.16.5/conda/cath-tools.yml) | [Yes](cath-tools/0.16.5/singularity/cath-tools.def) | No     | [Link](https://cath-tools.readthedocs.io/en/latest/) | [Link](https://www.sciencedirect.com/science/article/pii/0022283689900843?via%3Dihub) |
-| Diamond       | 2.1.8         | [Yes](diamond/2.1.8/conda/diamond.yml) | [Yes](diamond/2.1.8/singularity/diamond.def) | No     | [Link](https://github.com/bbuchfink/diamond/wiki) | [Link](https://www.nature.com/articles/s41592-021-01101-x) |                
-| HMMER         | 3.4           | [Yes](hmmer/3.4/conda/hmmer.yml) | [Yes](hmmer/3.4/singularity/hmmer.def) | No     | [Link](http://eddylab.org/software/hmmer/Userguide.pdf) | [Link](http://eddylab.org/software/hmmer/Userguide.pdf) |
-| MCL           | 22.282        | [Yes](mcl/22.282/conda/mcl.yml) | [Yes](mcl/22.282/singularity/mcl.def) | No     | [Link](https://micans.org/mcl/) | [Link-1](https://epubs.siam.org/doi/10.1137/040608635) - [Link-2](https://pubmed.ncbi.nlm.nih.gov/11917018/) - [Link-3](https://pubmed.ncbi.nlm.nih.gov/22144159/) |
+| LAGOON-MCL     | x.x.x         | [Yes](lagoon-mcl/x.x.x/conda/lagoon-mcl.yml) | [Yes](lagoon-mcl/x.x.x/singularity/lagoon-mcl.def) | No     | No            | No         |
+| CATH tools    | 0.16.5        | [Yes](cath-tools/0.16.5/conda/cath-tools.yml) | [Yes](cath-tools/0.16.5/singularity/cath-tools.def) | No     | [Yes](https://cath-tools.readthedocs.io/en/latest/) | [Yes](#cath-tools) |
+| Diamond       | 2.1.8         | [Yes](diamond/2.1.8/conda/diamond.yml) | [Yes](diamond/2.1.8/singularity/diamond.def) | No     | [Yes](https://github.com/bbuchfink/diamond/wiki) | [Yes](#diamond) |                
+| HMMER         | 3.4           | [Yes](hmmer/3.4/conda/hmmer.yml) | [Yes](hmmer/3.4/singularity/hmmer.def) | No     | [Yes](http://eddylab.org/software/hmmer/Userguide.pdf) | [Yes](#hmmer) |
+| MCL           | 22.282        | [Yes](mcl/22.282/conda/mcl.yml) | [Yes](mcl/22.282/singularity/mcl.def) | No     | [Yes](https://micans.org/mcl/) | [Yes](#mcl) |
 
 # Use
 
@@ -65,3 +65,25 @@ singularity build --fakeroot diamond-2-1-8.sif diamond/2.1.8/singularity/diamond
 
 singularity run diamond-2-1-8.sif diamond --help
 ```
+
+# Reference
+
+## CATH-tools
+
+1. W. R. Taylor et C. A. Orengo, « Protein structure alignment », Journal of Molecular Biology, vol. 208, no 1, p. 1‑22, juill. 1989, doi: [10.1016/0022-2836(89)90084-3](https://doi.org/10.1016/0022-2836(89)90084-3).
+
+## Diamond
+
+1. B. Buchfink, K. Reuter, et H.-G. Drost, « Sensitive protein alignments at tree-of-life scale using DIAMOND », Nat Methods, vol. 18, no 4, Art. no 4, avr. 2021, doi: [10.1038/s41592-021-01101-x](https://doi.org/10.1038/s41592-021-01101-x).
+
+## HMMER
+
+1. S. R. Eddy et HMMER development team, « HMMER User’s Guide », 2020.
+
+## MCL
+
+1. S. Van Dongen, « Graph Clustering Via a Discrete Uncoupling Process », SIAM J. Matrix Anal. Appl., vol. 30, no 1, p. 121‑141, janv. 2008, doi: [10.1137/040608635](https://doi.org/10.1137/040608635).
+
+2. A. J. Enright, S. Van Dongen, et C. A. Ouzounis, « An efficient algorithm for large-scale detection of protein families », Nucleic Acids Research, vol. 30, no 7, p. 1575‑1584, avr. 2002, doi: [10.1093/nar/30.7.1575](https://doi.org/10.1093/nar/30.7.1575).
+
+3.	S. van Dongen et C. Abreu-Goodger, « Using MCL to Extract Clusters from Networks », in Bacterial Molecular Networks: Methods and Protocols, J. van Helden, A. Toussaint, et D. Thieffry, Éd., New York, NY: Springer, 2012, p. 281‑295. doi: [10.1007/978-1-61779-361-5_15](https://doi.org/10.1007/978-1-61779-361-5_15).
